@@ -21,7 +21,6 @@ body {
     overflow: hidden;
 }
 #yesBtn {
-    /* position: absolute; */
     background-color: rgb(225, 0, 0);
     border: none;
     width: 80px;
@@ -47,3 +46,10 @@ body {
     margin-top: 20px;
     transition: top 0.5, left 0.5s;
 }
+
+
+@media only screen and (max-width: 600px) {
+    .container {
+        margin: 30px;
+    }
+  }
